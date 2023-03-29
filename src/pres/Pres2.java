@@ -26,5 +26,6 @@ public class Pres2 {
             method.invoke(metier, dao);
             System.out.println("resultat:" + metier.calcul());
         }catch (Exception e){e.printStackTrace();}
+
     }
 }
